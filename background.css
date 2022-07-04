@@ -1,0 +1,116 @@
+h1 {
+     text-align: center;
+     text-transform: uppercase;
+     padding-bottom: 20px;
+}
+h2 {
+     text-align: center;
+     margin-bottom: 10px;
+     margin-top: -10px;
+}
+body {
+     background-color: #f1f1f1;
+     color: #0f141e;
+     font-size: 16px;
+     font-weight: normal;
+     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+a {
+     color: black;
+     text-decoration: none;
+}
+a:hover {
+     text-decoration: underline;
+}
+a:active {
+     color: blue;
+}
+a:visited {
+     color: grey;
+}
+.profilePicture {
+     width: 200px;
+     border-radius: 42px;
+     box-shadow: 20px -17px 20px 20px rgba(20, 20, 20, 20);
+     margin-bottom: 20px;
+}
+.info {
+     color: #86898f;
+     font-style: Italic;
+     font-weight: bold;
+     margin-bottom: 20px;
+     display: flex;
+}
+.info-text {
+     margin-left: 40px;
+}
+.info-text li {
+     margin-bottom: 10px;
+}
+
+@media (max-width: 700px) {
+     .info {
+          text-align: center;
+          display: block;
+     }
+}
+
+.farm {
+     max-width: 750px;
+     margin: auto;
+     padding-top: 20px;
+}
+.foundation {
+     padding: 15px 25px;
+     border: 2px solid black;
+     border-radius: 40px;
+     margin-bottom: 20px;
+}
+
+.bg-livingCoral {
+     background: #ff6f61;
+}
+.bg-ultraViolet {
+     background: #6b5b95;
+}
+.bg-greeneryHex {
+     background: #88b04b;
+}
+.bg-roseQuartzHex {
+     background: #f7cac9;
+}
+.bg-serenityHex {
+     background: #92a8d1;
+}
+.list {
+     padding: 0 0px;
+}
+.list li {
+     color: #b565a7;
+     margin-bottom: 10px;
+     font-weight: 400;
+}
+.add {
+     padding: 0 15px;
+}
+.ability td {
+     text-align: justify;
+}
+.tg {
+     padding-left: 10px;
+}
+
+table {
+     width: 100%;
+}
+table thead {
+     font-weight: bold;
+}
+table td {
+     padding-bottom: 10px;
+}
+table td:nth-child(1),
+td:nth-child(2),
+td:nth-child(3) {
+     color: #b565a7;
+}
